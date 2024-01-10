@@ -12,10 +12,11 @@ public class RombTest {
         this.romb = new Romb();
     }
     @Test
-    public void testCalcRadius_30_35() {
-        double actual = this.romb.calcArea(30.2);
-        double expected = 8.6;
-        Assert.assertEquals(actual, expected, 0.1);
+    public void testCalcArea_30_35() {
+        double actual = this.romb.calcArea(30.2,35); 
+        double expected = 0.1;
+        Assert.assertEquals(actual, expected, 8.6);
     }
+
     
 }
